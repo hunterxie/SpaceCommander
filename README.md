@@ -18,7 +18,8 @@ xxx:SpaceCommandDemo xxx$ /Users/xxx/Desktop/github/SpaceCommander/setup-repo.sh
 5、执行你想要的git操作，只需要保证在git commit之前 执行format-objc-files.sh脚本即可，该脚本可将git暂存区内所有修改的内容都格式化。本版本已经去掉了git hook，不会干扰提交。如果不执行脚本也依然能够实现正常提交流程。<br>
 
 ## 其他介绍
-format-objc-files.sh 格式化git所有add的修改过的文件<br>
-format-objc-files-in-repo.sh 格式化全工程，忽略文件除外<br>
+format-objc-files.sh 格式化git所有add的**修改过**的文件<br>
+format-objc-files-in-repo.sh **格式化全工程**，忽略文件除外<br>
 format-objc-file.sh 格式化单一文件，直接空格跟之间文件路径<br>
 .clang-format文件是配置格式化语法，可根据自己的公司要求定制自己的格式化规范<br>
+.formatting-directory-ignore 配置需要忽略格式化的文件或者文件夹<br>
